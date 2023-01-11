@@ -3,6 +3,6 @@ from django.db import models
 # Create your models here.
 
 
-class Member(models.Model):
-  firstname = models.CharField(max_length=255)
-  lastname = models.CharField(max_length=255)
+class RecentPost(models.Model):
+  title = models.CharField(max_length=255)
+  dis = models.CharField(max_length=255)
